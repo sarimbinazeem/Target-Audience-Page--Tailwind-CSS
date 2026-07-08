@@ -1,12 +1,12 @@
 import React from 'react'
-import LeftContent from './LeftContent'
-import RightContent from './RightContent'
+import Page1Content from './Page1Content'
+import Navbar from './Navbar'
 
 const Section1 = () => {
   return (
     <div>
-        <LeftContent />
-        <RightContent />
+        <Navbar />
+        <Page1Content />
     </div>
   )
 }
