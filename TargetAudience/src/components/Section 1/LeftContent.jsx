@@ -4,7 +4,7 @@ import HeroText from './HeroText.jsx'
 
 const LeftContent = () => {
   return (
-    <div>
+    <div className=' h-full w-1/3'>
         <HeroText />
         <Arrow />
     </div>

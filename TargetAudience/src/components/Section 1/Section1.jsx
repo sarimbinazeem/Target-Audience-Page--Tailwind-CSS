@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Section1 = () => {
   return (
-    <div>
+    <div className='h-screen w-full'>
         <Navbar />
         <Page1Content />
     </div>
